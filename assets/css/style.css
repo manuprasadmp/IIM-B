@@ -14,7 +14,30 @@
 	font-family: 'OpenSans';
 	src: url("../fonts/OpenSans-Regular.ttf");
 }
-
+@font-face {
+	font-family: "Calibri-Bold";
+    src: url('../fonts/calibri/calibrib.ttf'); 
+}
+@font-face {
+	font-family: "Calibri-Italic";
+    src: url('../fonts/calibri/calibrii.ttf'); 
+}
+@font-face {
+	font-family: "Georgia-Italic";
+    src: url('../fonts/Georgia/georgiai.ttf'); 
+}
+@font-face {
+	font-family: "Georgia-Bold-Italic";
+    src: url('../fonts/Georgia/georgiaz.ttf'); 
+}
+@font-face {
+	font-family: "Helvetica-Neue-Light";
+    src: url('../fonts/Helvetica/HelveticaNeueLight.ttf'); 
+}
+@font-face {
+	font-family: "Helvetica-Neue-Bold";
+    src: url('../fonts/Helvetica/helvetica-neue-bold.ttf'); 
+}
 
 .container_wrap{
 	max-width: 1024px;
@@ -121,7 +144,7 @@
 .nav_bar ul {
 	background: url('../images/topmenu_bg.png');
 	background-size: 100% 100%;
-    padding: 10px 0;
+    padding: 6px 0;
 }
 
 .nav_bar li {
@@ -130,7 +153,7 @@
 	margin-right: -4px;
 	text-align: center;
 	color: #ffffff;
-	padding: 12px 16px;
+    padding: 8px 16px;
 	border-right: 1px solid rgb(201, 192, 192);
 }
 .nav_bar li:hover {
@@ -191,4 +214,27 @@
 	height: 30px;
 	margin-right: 6px;
 	background-position: 12px 28px;
+}
+footer {
+	clear: both;
+	background: #262626;
+	color: #fff;
+	font-size: 15px;
+}
+.footer_wrap{
+	padding: 30px 0;
+}
+footer h3{
+	font-family: "Calibri-Bold";
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.about_us{
+	line-height: 1.5em;
+	width: 20%;
+	font-family: "Calibri-Italic";
+}
+.about_us a {
+	text-decoration: none;
+	color: #CE7E32;
 }
