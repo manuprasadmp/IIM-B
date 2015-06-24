@@ -2,6 +2,18 @@
 	padding: 0;
 	margin:0; 
 }
+@font-face{
+	font-family: 'calibri';
+	src: url("../fonts/calibri/calibri.ttf");
+}
+@font-face{
+	font-family: 'RobotoSlab-Bold';
+	src: url("../fonts/RobotoSlab-Bold.ttf");
+}
+@font-face{
+	font-family: 'OpenSans';
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
 
 
 .container_wrap{
@@ -58,6 +70,7 @@
 	font-size: 12px;
 }
 .nav_list li {
+	font-family: calibri;
 	padding-left: 5px;
 	border-right: 1px solid rgba(127, 130, 131, 0.44);
 	color: #686868;
@@ -106,21 +119,22 @@
   margin-top: 30px;
 }
 .nav_bar ul {
-  background: url('../images/topmenu_bg.png');
-  background-size: 100% 100%;
-  padding: 16px;
+	background: url('../images/topmenu_bg.png');
+	background-size: 100% 100%;
+	padding: 16px;
 
 }
 
 .nav_bar li {
-  font-size: 16px;
-  text-align: center;
-  color: #ffffff;
-  padding: 16px 14px;
-  border-right: 1px solid rgb(201, 192, 192);
+	font-size: 16px;
+	font-family: calibri;
+	text-align: center;
+	color: #ffffff;
+	padding: 16px 14px;
+	border-right: 1px solid rgb(201, 192, 192);
 }
 .slider_wrap {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 .updates{
 	width: 386px;
@@ -170,5 +184,6 @@
 	background: url(../../assets/images/banner_navigation.png) no-repeat scroll right center transparent;
 	width: 29px;
 	height: 30px;
+	margin-right: 6px;
 	background-position: 12px 28px;
 }
