@@ -172,69 +172,6 @@ body{
 }
 
 .updates{
-	position: relative;
-	width: 386px;
-	height: 427px;
-	margin-right: 2px;
-	float: left;
-	background: -webkit-linear-gradient(left top, rgb(11, 128, 248) , rgb(0, 154, 255));
-	background: -o-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255));
-	background: -moz-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255));
-	background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255));
-	color: #fefefe;
-	font-family: "OpenSans";
-}
-.updates ul {
-	margin-left: 9px;
-	margin-top: 43px;
-}
-.updates a{
-	padding: 20px;
-	color: #fefefe;
-}
-.updates h1{
-	font-family: "RobotoSlab-Bold";
-	font-size: 34px;
-	text-shadow: 2px 2px #555555;
-	padding: 20px 20px 0px 20px;
-}
-.updates p{
-	font-size: 16px;
-	padding: 20px;
-}
-.updates{
-	width: 386px;
-	height: 427px;
-	margin-right: 2px;
-	float: left;
-	background: -webkit-linear-gradient(left top, rgb(11, 128, 248) , rgb(0, 154, 255));
-	background: -o-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255));
-	background: -moz-linear-gradient(bottom right, rgb(11, 128, 248), rgb(0, 154, 255));
-	background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255));
-	color: #fefefe;
-	font-family: "OpenSans";
-	margin-bottom: 50px;
-}
-.updates ul {
-	margin-left: 9px;
-	margin-top: 43px;
-}
-.updates a{
-  padding: 20px;
-  color: #fefefe;
-}
-.updates h1{
-	font-family: "RobotoSlab-Bold";
-	font-size: 34px;
-	text-shadow: 2px 2px #555555;
-	padding: 20px 20px 0px 20px;
-}
-.updates p{
-	font-size: 16px;
-	padding: 20px;
-}
-
-.updates{
 	width: 386px;
 	height: 427px;
 	margin-right: 2px;
@@ -733,6 +670,10 @@ margin-top: 20px;
   		height: auto;
 	}
 	.updates{
+		width: 344px;
+		height: 405px;
+	}
+	.updates_inner{
 		width: 344px;
 		height: 405px;
 	}
