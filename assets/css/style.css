@@ -172,6 +172,7 @@ body{
 }
 
 .updates{
+	position: relative;
 	width: 386px;
 	height: 427px;
 	margin-right: 2px;
@@ -182,15 +183,14 @@ body{
 	background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255));
 	color: #fefefe;
 	font-family: "OpenSans";
-	margin-bottom: 50px;
 }
 .updates ul {
 	margin-left: 9px;
 	margin-top: 43px;
 }
 .updates a{
-  padding: 20px;
-  color: #fefefe;
+	padding: 20px;
+	color: #fefefe;
 }
 .updates h1{
 	font-family: "RobotoSlab-Bold";
@@ -235,7 +235,6 @@ body{
 }
 
 .updates{
-	position: relative;
 	width: 386px;
 	height: 427px;
 	margin-right: 2px;
@@ -246,14 +245,15 @@ body{
 	background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255));
 	color: #fefefe;
 	font-family: "OpenSans";
+	margin-bottom: 50px;
 }
 .updates ul {
 	margin-left: 9px;
 	margin-top: 43px;
 }
 .updates a{
-	padding: 20px;
-	color: #fefefe;
+  padding: 20px;
+  color: #fefefe;
 }
 .updates h1{
 	font-family: "RobotoSlab-Bold";
@@ -663,6 +663,66 @@ margin-top: 20px;
 	text-decoration: none;
 	color:white;
 }
+.text_content{
+	width:70%;
+	display: inline-block;
+	font-family: "calibri";
+
+}
+.text_content h1{
+	color:rgb(255, 68, 80);
+	padding-bottom: 20px;
+}
+.text_content p{
+	color: rgb(95, 95, 95);
+}
+.sidenav{
+	width: 25%;
+	padding:10px;
+	float: right;
+	display: inline-block;
+}
+.sidenav ul{
+	list-style-type: none;
+	font-family: "calibri";
+}
+.sidenav ul li{
+	padding:15px;
+	font-size: 20px;
+	border-bottom: 1px solid rgba(206, 195, 195, 1);
+	color:#0071F8;
+	cursor: pointer;
+}
+#about_list{
+	border-top: 1px solid rgba(206, 195, 195, 1);
+	color:#EF614D;
+}
+.nav_bar ul li ul.dropdown{
+        margin-top: 6px;
+        background: #323232;
+        display: none;
+        position: absolute;
+        z-index: 999;
+
+    }
+.nav_bar ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+		border: none;
+		padding: 0;
+		width: 400px;
+    }
+.nav_bar ul li ul.dropdown li{
+		padding: 15px 16px;
+		width: 366px;
+        display: block;
+        border: none;
+        text-align: left;
+        border-bottom: 1px solid rgba(206, 195, 195, 1);
+    }
+
+ .nav_bar ul li ul.dropdown li:hover { 
+    background-color: black;
+}
 /* media query*/
 @media screen and (max-width: 1024px) {
 	.container_wrap{
@@ -699,7 +759,6 @@ margin-top: 20px;
 	width:70%;
 	display: inline-block;
 	font-family: "calibri";
-
 }
 .text_content h1{
 	color:rgb(255, 68, 80);
