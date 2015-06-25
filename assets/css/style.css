@@ -167,9 +167,12 @@ body{
 }
 .slider_wrap {
 	margin-top: 5px;
+	display: inline-block;
+	width: 100%;
 }
 
 .updates{
+	position: relative;
 	width: 386px;
 	height: 427px;
 	margin-right: 2px;
@@ -180,15 +183,14 @@ body{
 	background: linear-gradient(to bottom right, rgb(11, 128, 248) , rgb(0, 154, 255));
 	color: #fefefe;
 	font-family: "OpenSans";
-	margin-bottom: 50px;
 }
 .updates ul {
 	margin-left: 9px;
 	margin-top: 43px;
 }
 .updates a{
-  padding: 20px;
-  color: #fefefe;
+	padding: 20px;
+	color: #fefefe;
 }
 .updates h1{
 	font-family: "RobotoSlab-Bold";
@@ -304,6 +306,10 @@ body{
 .slide_img img {
 	width: 100%;
 	height: 100%;
+}
+.img_nav {
+	position: absolute;
+	bottom: 38px;
 }
 #nxt a{
 	background: url(../../assets/images/banner_navigation.png) no-repeat scroll right center transparent;
@@ -473,49 +479,124 @@ footer h3{
 	background-position: 5px 0px;
 	background-repeat: no-repeat;
 }
+
+
 .alerts,.workshop{
+	padding: 10px;
+	border-radius: 10px;
 	display: inline-block;
-	width:333px;
+	width:313px;
 	background-color: rgb(15, 159, 255);
 	border-top: 3px solid rgb(0, 117, 204);
 }
+.alerts{
+	  margin-right: 8px;
+}
 .videos{
+	padding: 10px;
+	border-radius: 10px;
 	display: inline-block;
-	width:333px;
+	width:313px;
 	background-color: rgb(5, 118, 246);
 	border-top: 3px solid rgb(78, 177, 253);
+	margin-right: 8px;
 
 }
 .sub_info_wrap{
+	display: table;
+	padding: 7px;
+	margin-bottom: 10px;
 	background-color: rgb(0, 150, 234);
 	border: 1px solid rgb(0, 144, 225);
+	border-radius: 4px;
+}
+.sub_info_wrap img{
+	margin-right: 7px;
+	float: left;
+	border-radius: 4px;
 }
 .content2 h3{
-	  font-family: "Calibri";
-  font-size: 27px;
-  color: #ffffff;
-  padding: 12px 0;
-  padding-left: 35px;
+	font-family: "Calibri";
+	font-size: 27px;
+	color: #ffffff;
+	padding: 12px 0;
+	padding-left: 41px;
+}
+.content2 .alerts h3{
+	background: url(../images/alert_ico.png);
+	background-repeat: no-repeat;
+	background-position: 8px 13px;
+}
+.content2 .videos h3{
+	background: url(../images/testimonials_ico.png);
+	background-repeat: no-repeat;
+	background-position: 8px 13px;
+} 
+.content2 .workshop h3{
+    background: url(../images/learnworkshop_ico.png);
+	background-repeat: no-repeat;
+	background-position: 8px 13px;
 }
 .content2 h5{
-	  font-family: "Helvetica-Neue-Bold";
-  font-size: 13px;
-  color: #c0e8ff;
-    line-height: 25px;
-  padding-top: 5px
+	font-family: "Helvetica-Neue-Bold";
+	font-size: 13px;
+	color: #c0e8ff;
+	line-height: 25px;
+	padding-top: 5px
 }
 .content2 p{
-	  font-family: "Helvetica-Neue-Light";
-  font-size: 12px;
-  color: #ffffff;
-  line-height: 1.2em;
+	font-family: "Helvetica-Neue-Light";
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 1.2em;
 }
 .alerts h5{
-	  font-family: "Georgia-Bold-Italic";
-  font-size: 14px;
-  color: #fcfee9;
-  line-height: 25px;
-  padding-top: 5px;
+	font-family: "Georgia-Bold-Italic";
+	font-size: 14px;
+	color: #fcfee9;
+	line-height: 25px;
+	padding-top: 5px;
+}
+.img_btn{
+	width:333px;
+	display: inline-block;
+	margin-right: 4px;
+}
+.img_btn .img_text{
+	margin-top: 62px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.img_btn img{
+	float: right;
+}
+.img_btn p{
+	font-size: 36px;
+	font-family: "Calibri-Bold";
+	color: #ffffff;
+}
+#student .img_text{
+	background-color: rgb(255, 149, 0);
+}
+#publication .img_text{
+    background: rgb(238, 68, 0);
+}
+#media .img_text{
+	background: rgb(0, 192, 240);
+}
+#publication{
+	position: relative;
+	top: 24px;
+}
+#publication .img_text{
+	height: 86px;
+}
+#publication p{
+	position: absolute;
+	bottom: 25px;
+}
+.base_tabs {
+  margin-bottom: 30px;
 }
 /****/
 
@@ -641,4 +722,38 @@ margin-top: 20px;
 
  .nav_bar ul li ul.dropdown li:hover { 
     background-color: black;
+}
+/* media query*/
+@media screen and (max-width: 1024px) {
+	.container_wrap{
+	   	max-width: 95%;
+	}
+	.slide_img {
+  		  width: 610px;;
+  		height: auto;
+	}
+	.updates{
+		width: 344px;
+		height: 405px;
+	}
+	.news, .features, .events {
+		width: 32%;
+	}
+	.content1 img {
+		width: 100%;
+		height: auto;
+	}
+	.head span {
+		width: 65%;
+	}
+	.alerts, .workshop ,.videos{
+		width: 30%;
+	}
+	.img_btn {
+		width: 32%;
+	}
+	.img_btn p {
+		font-size: 32px;
+	}
+
 }
