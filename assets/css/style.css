@@ -38,7 +38,12 @@
 	font-family: "Helvetica-Neue-Bold";
     src: url('../fonts/Helvetica/helvetica-neue-bold.ttf'); 
 }
-
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
 .container_wrap{
 	max-width: 1024px;
 	margin:0 auto;
@@ -220,7 +225,10 @@ footer {
 	clear: both;
 	background: #262626;
 	color: #fff;
-	font-size: 15px;
+	position: relative;
+	bottom:0;
+	left:0;
+	right:0;
 }
 .footer_wrap{
 	padding: 30px 0;
